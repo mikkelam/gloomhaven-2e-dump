@@ -1,0 +1,15 @@
+[build-system]
+requires = ["uv_build>=0.9.25,<0.10.0"]
+build-backend = "uv_build"
+
+[project]
+name = "gloomhaven-dump"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "html2text>=2025.4.15",
+    "marker-pdf>=1.10.1",
+    "selectolax>=0.4.6",
+]
